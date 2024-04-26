@@ -29,3 +29,5 @@ export class ShareDetailsComponent implements OnInit {
         window.open(link, "_blank");
     }
 }
+
+
