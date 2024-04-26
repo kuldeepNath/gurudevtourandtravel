@@ -26,6 +26,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ],
     providers: [],
     bootstrap: [AppComponent],
+    
     exports:[ ]
 })
 export class AppModule { }
