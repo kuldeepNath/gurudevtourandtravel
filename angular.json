@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "now-ui-kit-angular": {
+    "gurudevtourandtravel": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -57,14 +57,14 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "now-ui-kit-angular:build"
+            "browserTarget": "gurudevtourandtravel:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "now-ui-kit-angular:build:production"
+              "browserTarget": "gurudevtourandtravel:build:production"
             },
             "development": {
-              "browserTarget": "now-ui-kit-angular:build:development"
+              "browserTarget": "gurudevtourandtravel:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "now-ui-kit-angular:build"
+            "browserTarget": "gurudevtourandtravel:build"
           }
         },
         "test": {
@@ -108,7 +108,7 @@
         }
       }
     },
-    "now-ui-kit-angular-e2e": {
+    "gurudevtourandtravel-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -117,7 +117,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "now-ui-kit-angular:serve"
+            "devServerTarget": "gurudevtourandtravel:serve"
           }
         },
         "lint": {
@@ -132,7 +132,7 @@
       }
     }
   },
-  "defaultProject": "now-ui-kit-angular",
+  "defaultProject": "gurudevtourandtravel",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
